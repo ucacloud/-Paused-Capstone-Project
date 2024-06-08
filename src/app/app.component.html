@@ -1,57 +1,71 @@
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <!-- Container wrapper -->
-    <div class="container">
-        <a class="navbar-brand text mb-1">Navbar</a>
+ <!-- Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <!-- Container wrapper -->
+  <div class="container">
+      <a class="navbar-brand text mb-1">CA Calendar</a>
 
-        <!-- Toggle button -->
-        <button data-mdb-button-init class="navbar-toggler text-white" type="button" data-mdb-collapse-init data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
-        </button>
+      <!-- Toggle button -->
+      <button data-mdb-button-init class="navbar-toggler text-white" type="button" data-mdb-collapse-init data-mdb-target="#navbarButtonsExample" aria-controls="navbarButtonsExample" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+      </button>
 
-        <!-- Collapsible wrapper -->
-        <div class="collapse navbar-collapse" id="navbarButtonsExample">
-            <!-- Left links -->
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-            </ul>
-            <!-- Left links -->
+      <!-- Collapsible wrapper -->
+      <div class="collapse navbar-collapse" id="navbarButtonsExample">
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Lower Campus</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Upper Campus</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">All School</a>
+          </li>
+          </ul>
+          <!-- Left links -->
 
-            <ul class="navbar-nav d-flex flex-row">
-                <!-- Icons -->
-                <li class="nav-item me-3 me-lg-0">
-                    <a class="nav-link" href="https://www.instagram.com/calvaryacademynlr/">
-                        
-  
-<i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
-                    </a>
-                </li>
-                <!-- Icon dropdown -->
-                <li class="nav-item me-3 me-lg-0 dropdown">
-                    <a data-mdb-dropdown-init class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
-                        <i class="fas fa-user text-white"></i>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li>
-                            <a class="dropdown-item" href="#">Action</a>
-                        </li>
-                        <li>
-                            <a class="dropdown-item" href="#">Another action</a>
-                        </li>
-                        <li><hr class="dropdown-divider" /></li>
-                        <li>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <!-- Collapsible wrapper -->
-    </div>
-    <!-- Container wrapper -->
+          <ul class="navbar-nav d-flex flex-row">
+              <!-- Icons -->
+              <li class="nav-item me-3 me-lg-0">
+                  <a class="nav-link" href="https://www.instagram.com/calvaryacademynlr/" target="_blank">           
+                  <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                  </a>
+              </li>
+              <li class="nav-item me-3 me-lg-0">
+                <a class="nav-link" href="https://www.calvary.academy/" target="_blank">           
+                <i class="fas fa-school" style="color: #ffffff;"></i>
+                </a>
+            </li>
+              <!-- Icon dropdown -->
+              <li class="nav-item me-3 me-lg-0 dropdown">
+                  <a data-mdb-dropdown-init class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                      <i class="fas fa-user text-white"></i>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                          <a class="dropdown-item" href="#">Parents</a>
+                      </li>
+                      <li>
+                          <a class="dropdown-item" href="#">Faculty</a>
+                      </li>
+                      <li><hr class="dropdown-divider" /></li>
+                      <li>
+                          <a class="dropdown-item" href="#">Contact Us</a>
+                      </li>
+                  </ul>
+              </li>
+          </ul>
+      </div>
+      <!-- Collapsible wrapper -->
+  </div>
+  <!-- Container wrapper -->
 </nav>
 <!-- Navbar -->
-
+ <!-- Background image -->
+<div class="bg-image" 
+style="background-image: url('https://images.squarespace-cdn.com/content/v1/5f1604dc8e627d291265e219/1595528732104-WVIVY9XGW7NXOHJ4IXQB/IMG-4848.PNG?format=1500w');
+       height: 100vh">
+</div>
+<!-- Background image -->
 <router-outlet></router-outlet>

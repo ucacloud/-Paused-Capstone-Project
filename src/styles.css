@@ -1,3 +1,9 @@
+/* Font Awesome */
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+/* MDB SCSS */
+@import "mdb-angular-ui-kit/assets/scss/mdb.scss";
+
 /* Color of the links BEFORE scroll */
 .navbar-scroll .nav-link,
 .navbar-scroll .fa-bars,
@@ -19,7 +25,7 @@
 /* Color of the navbar AFTER scroll */
 .navbar-scroll,
 .navbar-scrolled {
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 /* An optional height of the navbar AFTER scroll */
@@ -29,5 +35,5 @@
 }
 
 body {
-  background-color: #eee;
+  background-color: #ffffff;
 }
